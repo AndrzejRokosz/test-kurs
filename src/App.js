@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{padding:50}}>
         {this.state.data
           ? this.state.data.map
             ? this.state.data.map(user => (
